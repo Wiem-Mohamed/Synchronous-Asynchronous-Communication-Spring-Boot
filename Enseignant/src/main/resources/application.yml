@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/enseignants
+    username: root
+    password: 14704146
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8081
